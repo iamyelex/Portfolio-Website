@@ -460,6 +460,12 @@ footer p:nth-child(2){
     .section_subtitle {
         width: 600px;
     }
+    .btn {
+        padding: 5px 14px;
+    }
+    .low {
+        margin-top: 20px;
+    }
 }
 
 @media screen  and (max-width:600px){
@@ -487,6 +493,9 @@ footer p:nth-child(2){
     }
     .portfolio_title {
         margin-top: .5rem;
+    }
+    .lower {
+        margin-top: 25px;
     }
 }
 
