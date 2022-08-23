@@ -29,17 +29,12 @@
     font-size: 1.1rem;
     cursor: pointer;
 }
-
-.portfolio_flex {
-    display: flex;
-}
 .portfolio {
     max-width: 100%;
     height: auto;
     margin: 0;
     padding: 100px;
     background-color: #242524;
-    
 }
 .section_title {
     color: white;
@@ -410,6 +405,47 @@ footer p:nth-child(2){
         width: 850px;
         margin: 20px;
     }
+    .portfolio{
+        padding: 70px;
+    }
+    .section_title {
+        color: white;
+        font-size: 60px;
+        width: 700px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .section_subtitle {
+        font-size: 25px;
+        text-align: center;
+        width: 700px;
+    }
+    .portfolio_box{
+        display: flex;
+        flex-direction: column;
+    }
+    .portfolio_card {
+        height: auto;
+        width: 420px;
+        padding: 17px 17px;
+        margin: 10px;
+    }
+    .portfolio_img {
+        width: 300px;
+        height: 200px;
+        margin-top: 15px;
+    }
+    .portfolio_title {
+        font-size: 1.125rem;
+        margin-top: .75rem;
+        margin-bottom: .5rem;
+    }
+    .portfolio_description {
+        margin-top: .75em;
+        margin-bottom: .2em;
+        font-size: .8em;
+        height: 20px;
+    }
 }
 
 @media screen and (max-width:700px){
@@ -417,6 +453,12 @@ footer p:nth-child(2){
         font-size: 45px;
         width: 780px;
         margin: 15px;
+    }
+    .section_title {
+        width: 600px;
+    }
+    .section_subtitle {
+        width: 600px;
     }
 }
 
@@ -429,6 +471,22 @@ footer p:nth-child(2){
         font-size: 55px;
         width: 550px;
         margin: 20px;
+    }
+    .section_title {
+        width: 500px;
+    }
+    .section_subtitle {
+        width: 500px;
+    }
+    .portfolio_card {
+        width: 320px;
+    }
+    .portfolio_img {
+        width: 280px;
+        height: 160px;
+    }
+    .portfolio_title {
+        margin-top: .5rem;
     }
 }
 
@@ -463,5 +521,24 @@ nav ul li {
 }
 .skills {
     text-align: center;
+}
+.section_title {
+    width: 400px;
+}
+.section_subtitle {
+    width: 400px;
+}
+.portfolio_card {
+    width: 300px;
+    padding: 10px 10px;
+}
+.portfolio_img {
+    width: 200px;
+    height: 150px;
+    margin-top: 10px;
+}
+
+.long {
+    height: 30px;
 }
 }
