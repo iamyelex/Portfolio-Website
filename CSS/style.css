@@ -590,15 +590,17 @@ section .about {
     max-width: 100%;
 }
 .section_title {
-    width: 300px;
+    width: 70%;
+    font-size: 55px;
     margin: 10px auto;
 }
 .section_subtitle {
-    width: 300px;
+    width: 100%;
+    font-size: 18px;
     margin: 10px auto;
 }
 .portfolio_card {
-    width: 250px;
+    width: 270px;
     padding: 8px 8px;
     margin: 10px auto;
 }
