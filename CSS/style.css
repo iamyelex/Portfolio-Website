@@ -543,6 +543,7 @@ nav ul li {
 .about-text {
     width: 450px;
     font-size: 13px;
+    padding: 15px;
 }
 .about-text h2 {
     font-size: 55px;
