@@ -12,9 +12,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
-    <link rel='x-icon' sizes="16x16" href="favicon.zip"/>
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-
     <title>My Portfolio Website</title>
 </head>
 
@@ -22,7 +19,7 @@
     <div class="container-1">
         <header class="header" id="header">
             <nav class="nav container">
-                <a href="#" class="nav-logo">Debs</a>
+                <!-- <a href="#" class="nav-logo">Debs</a> -->
     
                 <div class="nav-menu" id="nav-menu">
                     <ul class="nav-list grid">
@@ -36,7 +33,7 @@
                                 <i class="uil uil-user nav-icon"></i>About
                             </a>
                         </li>
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a href="#skills" class="nav-link">
                                 <i class="uil uil-file-alt nav-icon"></i>Skills
                             </a>
@@ -45,9 +42,9 @@
                             <a href="#services" class="nav-link">
                                 <i class="uil uil-briefcase-alt nav-icon"></i>Services
                             </a>
-                        </li>
+                        </li> -->
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="#portfolio" class="nav-link">
                                 <i class="uil uil-scenery nav-icon"></i>Portfolio
                             </a>
                         </li>
@@ -88,11 +85,11 @@
 
     <section class="about" id="about">
         <div class="main">
-            <img id="image" src="images/debs-in-green.jpg" style="height:fit-content; width:40%;" alt="a photo of the author">
-            <div class="about-text">
+            <img id="image" src="images/debs-in-green.jpg" alt="a photo of the author">
+            <div class="about-text img-responsive">
                 <h2>About Me</h2>
                 <p>My passions in life are people and tech. So, I'm studying Nursing, while also aspiring to become a Fullstack Web Developer. I have years of experience in photography, collaborating with some of the biggest names in the state. This gives my work an edge over others.</p><br>
-                  <p class="skills">
+                  <p class="skills"  id="skills">
                     <h5 class="skills">My Skills!</h5>
                     <ol class="skills">
                     <li>Adobe Lightroom</li>
@@ -332,9 +329,64 @@
                     </div>
                 </div>
             </div>
-
         </div>
 
+        <br>
+        <div class="box portfolio_box">
+            <div class="portfolio_card"> 
+                <div class="portfolio_container container">
+                    <div class="portfolio_content grid">
+                        <img src="images/CatFeverImg.png" alt="registration-page" class="portfolio_img">
+            
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">CatFeverApp</h3>
+                            <p class="portfolio_description long">A JavaScript application that allows one view an infinite number of cat images.</p>
+                            <button class="btn low">
+                                <a href="https://npdebs.github.io/CatPhotoApp/" target="_blank" class="button button_flex button_small portfolio_button">See more...
+                                    <i class="uil uil-arrow-right button_icon"></i>
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="portfolio_card">
+                <div class="portfolio_container container">
+                    <div class="portfolio_content grid">
+                        <img src="images/RPG_Game.png" alt="form_image" class="portfolio_img">
+                    
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">RPG Game</h3>
+                            <p class="portfolio_description long">Classic Rock, Paper, Scissors game, played against a computer.</p>
+                            <button class="btn low">
+                                <a href="https://npdebs.github.io/RPS-Game/" target="_blank" class="button button_flex button_small portfolio_button">See more...
+                                    <i class="uil uil-arrow-right button_icon"></i>
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio_card">
+                <div class="portfolio_container container">
+                    <div class="portfolio_content grid">
+                        <img src="images/TipCalcApp.png" alt="mini_project" class="portfolio_img">
+                    
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">Tip Calculator App</h3>
+                            <p class="portfolio_description long">An app that calculates the total cost of a meal, taking the percentage tip into consideration.</p>
+                            <button class="btn low lower">
+                                <a href="https://npdebs.github.io/TipCalculatorApp/" target="_blank" class="button button_flex button_small portfolio_button">See more...
+                                    <i class="uil uil-arrow-right button_icon"></i>
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
 
@@ -346,7 +398,7 @@
     
     <footer>
         <p>Deborah Udoh</p>
-        <p>To know more about me, click on the links below to explore my socials:</p>
+        <p id="info">To know more about me, click on the links below to explore my socials:</p>
         <div class="social">
             <a href="https://www.facebook.com/deborah.udoh.18"><i class="fa-brands fa-facebook"></i></a>
             <a href="https://instagram.com/deborahudoh02?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i></a>
