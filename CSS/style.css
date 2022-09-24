@@ -430,7 +430,7 @@ footer p:nth-child(2){
         height: auto;
         width: 420px;
         padding: 17px 17px;
-        margin: 10px;
+        margin: 10px auto;
     }
     .portfolio_img {
         width: 300px;
@@ -471,6 +471,12 @@ footer p:nth-child(2){
     .section_subtitle {
         width: 500px;
         margin: 15px auto;
+    }
+    .portfolio_card {
+        height: auto;
+        width: 420px;
+        padding: 17px 17px;
+        margin: 10px auto;
     }
     .btn {
         padding: 5px 14px;
@@ -516,7 +522,7 @@ footer p:nth-child(2){
     }
 }
 
-@media screen  and (max-width:500px)  {
+@media screen  and (max-width:500px) {
 nav {
     margin-bottom: 20px;
     padding-left: 4%;
@@ -574,5 +580,31 @@ footer p {
 }
 footer #info {
     width: 350px;
+}
+}
+@media screen  and (max-width:490px){
+section {
+    max-width: 100%;
+}
+section .about {
+    max-width: 100%;
+}
+.section_title {
+    width: 300px;
+    margin: 10px auto;
+}
+.section_subtitle {
+    width: 300px;
+    margin: 10px auto;
+}
+.portfolio_card {
+    width: 250px;
+    padding: 8px 8px;
+    margin: 10px auto;
+}
+.portfolio_img {
+    width: 200px;
+    height: 150px;
+    margin-top: 10px;
 }
 }
