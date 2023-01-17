@@ -44,3 +44,12 @@ skillsHeader.forEach((el) =>{
     el.addEventListener('click', toggleSkills)
 })
 
+document.querySelector(".nav-menu").addEventListener('click', function(e){
+    e.preventDefault();
+    console.log(e.target);
+    if (e.target.classList.contains('nav-link')){
+        console.log("LINK");
+        const id = e.target.getAttribute('href');
+        document.querySelector(id).scrollIntoView({behavior: 'smooth'});
+    }
+})
